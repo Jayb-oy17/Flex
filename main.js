@@ -11,6 +11,14 @@ btnNav.addEventListener("click", function (e) {
   nav.classList.toggle("navs");
 });
 
+const navs = document.querySelectorAll(".nav-list")
+
+navs.forEach((button) => {
+  button.addEventListener("click", function () {
+    nav.classList.remove("navs")
+  })
+})
+
 // STICKY NAV //
 
 const heroSec = document.querySelector(".hero");

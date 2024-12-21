@@ -944,20 +944,23 @@ html {
 .login-modal {
   display: none;
   background: rgba(0, 0, 0, 0.5);
-  position: fixed;
+  position: absolute;
   z-index: 1;
   left: 0;
-  top: 0;
-  height: 100%;
+  top: 10rem;
+  height: 70vh;
   width: 100%;
-  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-content {
   background-color: whitesmoke;
-  margin: 10% auto;
+  margin: 2rem auto;
   padding: 2rem;
   width: 80%;
+  height: 60vh;
   border-radius: 5px;
   animation-name: modalopen;
   animation-duration: 2s;
