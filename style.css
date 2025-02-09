@@ -13,6 +13,7 @@ html {
 
 .container {
   padding: 3rem 10rem;
+  scroll-margin-top: 10rem;
 }
 
 .hidden {
